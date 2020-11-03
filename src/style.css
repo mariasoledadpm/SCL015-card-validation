@@ -1,12 +1,18 @@
+#pagina1{
+    display: block;
+}
+
 header{
     height: 60px;
     width: 100%;
     background-color: #175ABF;
+
 }
 .imagen1 {
     display: block;
     margin: auto;
     width: 400px;
+    justify-content: center;
 }
 #ingresar {
     background-color: #175ABF;
@@ -16,4 +22,58 @@ header{
     display: block;
     margin: auto;
     font-size: 18px;
+}
+
+#pagina2{
+    display: none;
+}
+
+#nombre-ejemplo{
+    background-color:  #C4C4C4;
+    border-radius: 40px;
+    padding: 5px 30px 5px 30px;
+    color: gray;
+    display: block;
+    margin: auto;
+    font-size: 12px;
+}
+#nombre-box{
+    background-color:  #C4C4C4;
+    border-radius: 40px;
+    padding: 5px 30px 5px 30px;
+    color: gray;
+    display: block;
+    margin: auto;
+    font-size: 12px;
+}
+#fecha-tarjeta{
+    background-color: #C4C4C4;
+    border-radius: 40px;
+    padding: 5px 30px 5px 30px;
+    color: gray;
+    display: block;
+    margin: auto;
+    font-size: 12px;
+}
+#cvv{
+    background-color:  #C4C4C4;
+    border-radius: 40px;
+    padding: 5px 30px 5px 30px;
+    color: gray;
+    display: block;
+    margin: auto;
+    font-size: 12px;
+}
+#numero-tarjeta{
+    background-color: #C4C4C4;
+    border-radius: 40px;
+    padding: 5px 30px 5px 30px;
+    color: gray;
+    display: block;
+    margin:auto;
+    font-size: 12px;
+}
+.frase {
+    margin: auto;
+    text-align: center;
 }
