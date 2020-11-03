@@ -1,3 +1,8 @@
+#frase{
+    familia de fuentes: 'Work Sans', sans-serif;
+}
+
+
 #pagina1{
     display: block;
 }
@@ -6,8 +11,13 @@ header{
     height: 60px;
     width: 100%;
     background-color: #175ABF;
-
+  
 }
+.frase {
+    margin: auto;
+    text-align: center;
+}
+
 .imagen1 {
     display: block;
     margin: auto;
@@ -28,8 +38,38 @@ header{
     display: none;
 }
 
+.imagen4 {
+    display: block;
+    width: 210px;
+    justify-content: flex-start;
+}
+.frase2{
+    margin: auto;
+    text-align: center;
+}
+#caja {
+    margin: auto;
+    background-color: #F29508 ;
+    width: 300px;
+    justify-content: space-around;
+}
+#nombre{
+    background-color:  #C4C4C4;
+    border-radius: 40px;
+    padding: 5px 30px 5px 30px;
+    color: gray;
+    display: block;
+    margin: auto;
+    font-size: 12px;
+}
+#Nombre{
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+
+}
 #nombre-ejemplo{
-    background-color:  #C4C4C4;
+    background-color:  #614e4e;
     border-radius: 40px;
     padding: 5px 30px 5px 30px;
     color: gray;
@@ -37,16 +77,8 @@ header{
     margin: auto;
     font-size: 12px;
 }
-#nombre-box{
-    background-color:  #C4C4C4;
-    border-radius: 40px;
-    padding: 5px 30px 5px 30px;
-    color: gray;
-    display: block;
-    margin: auto;
-    font-size: 12px;
-}
-#fecha-tarjeta{
+
+#FechaTarjeta{
     background-color: #C4C4C4;
     border-radius: 40px;
     padding: 5px 30px 5px 30px;
@@ -64,7 +96,7 @@ header{
     margin: auto;
     font-size: 12px;
 }
-#numero-tarjeta{
+#numeroTarjeta{
     background-color: #C4C4C4;
     border-radius: 40px;
     padding: 5px 30px 5px 30px;
@@ -73,7 +105,44 @@ header{
     margin:auto;
     font-size: 12px;
 }
-.frase {
-    margin: auto;
-    text-align: center;
+#validar{
+    background-color: #175ABF;
+    border-radius: 10px;
+    padding: 5px 20px 5px 20px;
+    color: white;
+    display: block;
+    margin:auto;
+    font-size: 14px;
+}
+
+#botonvolver{
+    background-color: #175ABF;
+    border-radius: 10px;
+    padding: 5px 20px 5px 20px;
+    color: white;
+    display: block;
+    margin:auto;
+    font-size: 14px;
+}
+
+.imagen2{
+    display: block;
+    width: 100px;
+    justify-content: flex-end;
+    order: default -1;
+}
+.imagen3{
+    display: block;
+    width: 200px;
+    justify-content: flex-end;
+    order: default -1;
+}
+
+
+#pagina3{
+    display: none;
+}
+
+#pagina4{
+    display: block;
 }
